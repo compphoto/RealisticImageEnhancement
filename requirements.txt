@@ -1,0 +1,11 @@
+matplotlib
+torch
+torchvision
+scikit-image
+timm
+opencv-python
+tqdm
+kornia
+wandb
+pycocotools
+scikit-learn
