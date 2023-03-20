@@ -14,5 +14,5 @@ results/
 model/FBA_Matting/FBA.pth
 model/EMLNETSaliency/*.pth
 
-bestmodels/*.pth
+bestmodels/
 
