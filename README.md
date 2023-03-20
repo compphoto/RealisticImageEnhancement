@@ -10,7 +10,7 @@ Proc. CVPR, 2023
 
 [![video](figures/teaser_n.jpg)]()
 
-we propose a realism loss for saliency-guided image enhancement to maintain high realism across varying image types while attenuating distractors and amplifying objects of interest. Ours model achieves both realism and effectiveness, outperforming recent approaches on their own datasets, while also requiring a smaller memory footprint and runtime. **Our proposed approach offers a viable solution for automating image enhancement and photo cleanup operations**.
+We train and expliot a problem specific realism network (RealismNet) to train a saliency-guided image enhancement network (EditNet) which allows maintaining high realism across varying image types while attenuating distractors and amplifying objects of interest. Ours model achieves both realism and effectiveness, outperforming recent approaches on their own datasets, while also requiring a smaller memory footprint and runtime. **Our proposed approach offers a viable solution for automating image enhancement and photo cleanup operations**.
 
 
 Try our model easily on Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
@@ -50,7 +50,9 @@ python test.py --mask_root "$mask_root" --rgb_root "$rgb_root" --result_path "$r
 python test.py --mask_root "$mask_root" --rgb_root "$rgb_root" --result_path "$result_path" --init_parameternet_weights "bestmodels/editnet_amplify.pth" --result_for_decrease 0 --batch_size 1
 ```
 
+# AdobeStock Images
 
+The Sample images we used in our user study are picked from [AdobeStock](https://stock.adobe.com) dataset. We cannot share the images directly due to licence restrictions but we are providing the original AdobeStock link to these images [here](./adobestockdatasetlink.md) to ease future comparisons.  
 
 # Training RealismNet and EditingNet
 
