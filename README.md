@@ -52,7 +52,7 @@ python test.py --mask_root "$mask_root" --rgb_root "$rgb_root" --result_path "$r
 
 # AdobeStock Images
 
-The Sample images we used in our user study are picked from [AdobeStock](https://stock.adobe.com) dataset. We cannot share the images directly due to licence restrictions but we are providing the original AdobeStock link to these images [here](./adobestockdatasetlink.md) to ease future comparisons.  
+The Sample images we used in our user study are picked from [AdobeStock](https://stock.adobe.com) dataset. We cannot share the images directly due to licence restrictions but we are providing the original AdobeStock link to these images [here](./scripts/adobestockdatasetlink.md) to ease future comparisons.  
 
 # Training RealismNet and EditingNet
 

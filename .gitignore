@@ -14,7 +14,5 @@ results/
 model/FBA_Matting/FBA.pth
 model/EMLNETSaliency/*.pth
 
-bestmodels/realismnet.pth
-bestmodels/editnet_attenuate.pth
-bestmodels/editnet_amplify.pth
+bestmodels/*.pth
 
