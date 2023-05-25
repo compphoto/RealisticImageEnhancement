@@ -173,5 +173,5 @@ The EML-Net implementation was adapted from [EML-NET-Saliency](https://github.co
 
 "./model FBA_Matting" folder was adapted from authors [repository](https://github.com/MarcoForte/FBA_Matting).
 
-"./model/MiDaS" is adapted from [MiDas](https://github.com/intel-isl/MiDaS/tree/v2) for their Efficient implementation.   
+"./model/MiDaS" is adapted from [MiDas](https://github.com/intel-isl/MiDaS/tree/v2) for their EfficientNet implementation.   
 
