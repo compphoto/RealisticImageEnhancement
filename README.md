@@ -4,7 +4,7 @@
 > S. Mahdi H. Miangoleh, Zoya Bylinskii, Eric kee, Eli Shechtman, Yağız Aksoy.
 > [Main pdf](),
 > [Supplementary pdf](),
-> [Project Page](). 
+> [Project Page](http://yaksoy.github.io/realisticEditing/). 
 
 Proc. CVPR, 2023
 
@@ -152,6 +152,11 @@ python train_editnet.py --gpu_ids 0 --epochs 10 --batch_size 8 --lr_parameters 0
 ```
 python train_editnet.py --gpu_ids 0 --epochs 10 --batch_size 8 --lr_parameters 0.00001 --beta_r 0.1 --w_sal 5 --human_weight_gan 10 --sal_loss_type percentage_increase --mask_root "$MASKROOT" --rgb_root "$COCOROOT"
 ```
+
+## Running on Video - [DAVIS DATAST](https://davischallenge.org/)
+
+Download the DAVIS dataset from [their webpage](https://davischallenge.org/). Helper scripts to run our method on videos can be found (here)[./scripts/test_video.sh].
+
 
 ## Citation
 
