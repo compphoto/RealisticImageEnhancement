@@ -28,7 +28,8 @@ pip install -r requirements.txt
 conda activate ENVNAME
 ```
 
-2. Download our model weights from the following links and place them inside "./bestmodels/" folder. ([RealismNet]() and [EditingNet]() ) 
+2. Download our model weights from [here](https://drive.google.com/file/d/1NUN9xmD3p8G7n-HpD03UY9LHEF6J82-Q/view?usp=drive_link) and place them inside "./bestmodels/" folder.
+
 3. Set the path to your input image and mask pairs. 
 ```
 rgb_root=""
