@@ -2,8 +2,8 @@
 
 
 > S. Mahdi H. Miangoleh, Zoya Bylinskii, Eric kee, Eli Shechtman, Yağız Aksoy.
-> [Main pdf](),
-> [Supplementary pdf](),
+> [Main pdf](http://yaksoy.github.io/papers/CVPR23-RealisticEditing.pdf),
+> [Supplementary pdf](http://yaksoy.github.io/papers/CVPR23-RealisticEditing-Supp.pdf),
 > [Project Page](http://yaksoy.github.io/realisticEditing/). 
 
 Proc. CVPR, 2023
