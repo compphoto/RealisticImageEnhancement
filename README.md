@@ -155,7 +155,7 @@ python train_editnet.py --gpu_ids 0 --epochs 10 --batch_size 8 --lr_parameters 0
 
 ## Running on Video 
 
-Download the DAVIS dataset from [their webpage](https://davischallenge.org/). Helper scripts to run our method on videos can be found (here)[./scripts/test_video.sh].
+Download the DAVIS dataset from [their webpage](https://davischallenge.org/). Helper scripts to run our method on videos can be found [here](./scripts/test_video.sh).
 
 
 ## Citation
