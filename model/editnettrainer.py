@@ -160,9 +160,12 @@ class EditNetTrainer:
         self.numelmask = torch.sum(self.mask,dim=[1,2,3])
     
 
-    def forward_allperm_hr(self):
+    def forward_allperm_hr(self, params = None):
             for permutation in self.all_permutations:
-                params_dic = self.net_Parameters(self.input, permutation.repeat(self.args.batch_size,1))
+                if params is None:
+                    params_dic = self.net_Parameters(self.input, permutation.repeat(self.args.batch_size,1))
+                else:
+                    params_dic = params
 
                 current_rgb = self.rgb_org
                 for ed_in in range(self.args.nops):
@@ -182,7 +185,8 @@ class EditNetTrainer:
                         self.loss_g.cpu().numpy(),
                         current_result.cpu().numpy(),
                         self.input_saliency.cpu().numpy(),
-                        self.output_saliency.cpu().numpy(),)
+                        self.output_saliency.cpu().numpy(),
+                        params_dic,)
 
     
 
