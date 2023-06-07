@@ -1,4 +1,4 @@
-## Realistic Saliency Guided Image Enhancement [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/https://github.com/compphoto/RealisticImageEnhancement/blob/main/demo.ipynb) [![Arxiv](http://img.shields.io/badge/cs.CV-arXiv-B31B1B.svg)](https://openaccess.thecvf.com/content/CVPR2023/papers/Miangoleh_Realistic_Saliency_Guided_Image_Enhancement_CVPR_2023_paper.pdf)
+## Realistic Saliency Guided Image Enhancement [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/https://github.com/compphoto/RealisticImageEnhancement/blob/main/demo.ipynb) [![Arxiv](http://img.shields.io/badge/cs.CV-arXiv-B31B1B.svg)](http://yaksoy.github.io/papers/CVPR23-RealisticEditing.pdf)
 
 
 > S. Mahdi H. Miangoleh, Zoya Bylinskii, Eric kee, Eli Shechtman, Yağız Aksoy.
