@@ -1,4 +1,4 @@
-## Realistic Saliency Guided Image Enhancement [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/https://github.com/compphoto/RealisticImageEnhancement/blob/main/demo.ipynb) [![Arxiv](http://img.shields.io/badge/cs.CV-arXiv-B31B1B.svg)](http://yaksoy.github.io/papers/CVPR23-RealisticEditing.pdf)
+## Realistic Saliency Guided Image Enhancement [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/compphoto/RealisticImageEnhancement/blob/main/demo.ipynb) [![Arxiv](http://img.shields.io/badge/cs.CV-arXiv-B31B1B.svg)](http://yaksoy.github.io/papers/CVPR23-RealisticEditing.pdf)
 
 
 > S. Mahdi H. Miangoleh, Zoya Bylinskii, Eric kee, Eli Shechtman, Yağız Aksoy.
@@ -15,7 +15,7 @@ Proc. CVPR, 2023
 We train and expliot a problem specific realism network (RealismNet) to train a saliency-guided image enhancement network (EditNet) which allows maintaining high realism across varying image types while attenuating distractors and amplifying objects of interest. Ours model achieves both realism and effectiveness, outperforming recent approaches on their own datasets, while also requiring a smaller memory footprint and runtime. **Our proposed approach offers a viable solution for automating image enhancement and photo cleanup operations**.
 
 
-Try our model easily on Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/https://github.com/compphoto/RealisticImageEnhancement/blob/main/demo.ipynb)
+Try our model easily on Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/compphoto/RealisticImageEnhancement/blob/main/demo.ipynb)
 
 
 
